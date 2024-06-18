@@ -1,9 +1,10 @@
 
 function SE = signalEnergy (signal);
 
-% ==
+% ====================================
+% time domain signal frame energy, ie:
 % summing squared samples
-% ==
+% ====================================
 
 L= length(signal);
 
